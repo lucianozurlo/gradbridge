@@ -1,0 +1,68 @@
+/* contenedor general */
+.testimonial-swiper {
+   width: 100%;
+   padding: 60px 0 40px;
+}
+
+.swiper-wrapper {
+   align-items: center;
+}
+
+.swiper-slide {
+   width: 320px; /* todas iguales */
+   transition: all 0.3s ease;
+   -webkit-filter: blur(4px);
+           filter: blur(4px);
+   opacity: 0.4;
+   transform: scale(0.85);
+}
+
+.swiper-slide.is-active {
+   /* la del centro */
+   -webkit-filter: none;
+           filter: none;
+   opacity: 1;
+   transform: scale(1);
+}
+
+.testi-card {
+   background: #fff;
+   border: 2px solid #ffd700;
+   border-radius: 8px;
+   padding: 32px 28px;
+   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.testi-card h3 {
+   margin: 0 0 4px;
+   font-weight: 700;
+}
+.testi-card .role {
+   margin: 0 0 12px;
+   font-weight: 600;
+   color: #666;
+}
+.testi-card blockquote {
+   margin: 0;
+   font-style: italic;
+   line-height: 1.45;
+}
+
+/* flechas */
+.slider-nav {
+   display: flex;
+   justify-content: center;
+   gap: 64px;
+   margin-top: 20px;
+}
+
+.slider-nav button {
+   background: none;
+   border: none;
+   font-size: 26px;
+   cursor: pointer;
+   transition: transform 0.2s;
+}
+.slider-nav button:hover {
+   transform: scale(1.3);
+}

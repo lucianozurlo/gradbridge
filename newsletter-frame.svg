@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="147" height="40" viewBox="0 0 147 40">
+  <rect x="64.36" y="39" width="8" height="1" fill="gold"/>
+  <rect x="32.36" y="39" width="8" height="1" fill="gold"/>
+  <rect x="58.5" width="8" height="1" fill="gold"/>
+  <rect x="26.5" width="8" height="1" fill="gold"/>
+  <rect x="48.36" y="39" width="8" height="1" fill="gold"/>
+  <rect x="42.5" width="8" height="1" fill="gold"/>
+  <rect x="16.36" y="39" width="8" height="1" fill="gold"/>
+  <path d="M3.24,3.12C1.47,4.98.5,7.43.5,10v.79h1v-.79c0-2.31.88-4.51,2.47-6.19l-.73-.69Z" fill="gold"/>
+  <rect x=".5" y="18.79" width="1" height="8" fill="gold"/>
+  <rect x="10.5" width="8" height="1" fill="gold"/>
+  <path d="M2.61,34.34l-.88.48c1.38,2.5,3.76,4.29,6.52,4.92l.22-.97c-2.49-.57-4.63-2.18-5.87-4.43Z" fill="gold"/>
+  <rect x="74.5" width="8" height="1" fill="gold"/>
+  <rect x="122.5" width="8" height="1" fill="gold"/>
+  <rect x="128.36" y="39" width="8" height="1" fill="gold"/>
+  <rect x="112.36" y="39" width="8" height="1" fill="gold"/>
+  <path d="M145.5,30c0,2.27-.84,4.43-2.38,6.1l.74.68c1.7-1.85,2.64-4.26,2.64-6.77v-.93h-1v.93Z" fill="gold"/>
+  <path d="M145.19,5.04c-1.42-2.48-3.82-4.23-6.6-4.82l-.21.98c2.5.53,4.66,2.11,5.94,4.34l.87-.5Z" fill="gold"/>
+  <rect x="96.36" y="39" width="8" height="1" fill="gold"/>
+  <rect x="106.5" width="8" height="1" fill="gold"/>
+  <rect x="80.36" y="39" width="8" height="1" fill="gold"/>
+  <rect x="90.5" width="8" height="1" fill="gold"/>
+  <rect x="145.5" y="13.07" width="1" height="8" fill="gold"/>
+</svg>
