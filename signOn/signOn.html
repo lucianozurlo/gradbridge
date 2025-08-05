@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+
+      <style>
+         .gradbridge-gradient {
+            background-image: linear-gradient(90deg, #2563eb 4%, #02133a 100%) !important;
+         }
+         body {
+            margin: 0;
+         }
+
+         #modal-signOn {
+            display: flex;
+            width: 978px;
+            height: 451px;
+            align-items: center;
+            justify-content: center;
+         }
+         #modal-signOn:before {
+            display: none !important;
+         }
+         #modal-signOn .modal-bg {
+            position: absolute;
+            z-index: 1;
+         }
+         #modal-signOn .modal-content {
+            display: flex;
+            flex-direction: column;
+            row-gap: 42px;
+            align-items: center;
+            text-align: center;
+            justify-content: space-between;
+            z-index: 2;
+         }
+         #modal-signOn .modal-content .modal-logo {
+            display: flex;
+            width: 242px;
+            flex-direction: column;
+         }
+         #modal-signOn .modal-content .features {
+            font-size: 16px;
+            line-height: 1.5;
+            font-weight: 500;
+            color: #fff;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 50px;
+         }
+         #modal-signOn .modal-content .features p {
+            margin-bottom: 14px;
+            padding: 0;
+            text-align: left;
+            font-size: 16px !important;
+         }
+         #modal-signOn .modal-content .features a {
+            width: 300px !important;
+            height: 40px !important;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+            position: relative;
+            top: unset !important;
+            right: unset !important;
+         }
+         #modal-signOn .modal-content .features h2,
+         #modal-signOn .modal-content .feat-frame h3 {
+            font-family: 'Montserrat', sans-serif !important;
+            font-size: 24px !important;
+            font-weight: 700 !important;
+            text-align: left;
+         }
+         #modal-signOn .modal-content .feat-frame h3 {
+            margin-bottom: 17px;
+         }
+         #modal-signOn .modal-content .features .feat-frame {
+            position: relative;
+            border-radius: 10px;
+            height: 300px;
+            box-shadow:
+               0px 90px 36px rgba(0, 0, 0, 0.01),
+               0px 50px 30px rgba(0, 0, 0, 0.05),
+               0px 22px 22px rgba(0, 0, 0, 0.09),
+               0px 6px 12px rgba(0, 0, 0, 0.1);
+
+            height: 295px !important;
+            width: 366px;
+            background-color: #fff;
+            padding: 32px;
+         }
+         #modal-signOn .modal-content .features .feat-frame:before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            padding: 1px;
+            background: linear-gradient(152deg, rgba(255, 215, 0, 1) 0%, rgba(255, 215, 0, 0) 100%);
+            border-radius: inherit;
+            --m: conic-gradient(#000 0 0);
+            mask:
+               var(--m) content-box exclude,
+               var(--m);
+            pointer-events: none;
+         }
+
+         @media only screen and (max-width: 768px) {
+            #modal-signOn {
+               width: 100%;
+               height: 100%;
+               padding: 70px 0;
+            }
+            #modal-signOn .modal-content .features {
+               flex-direction: column;
+               gap: 25px;
+            }
+            #modal-signOn .modal-content .features .feat-frame {
+               width: calc(100% - 54px);
+               height: unset !important;
+            }
+            #modal-signOn .modal-content .feat-frame h3 {
+               margin-bottom: 14px;
+               line-height: 1;
+            }
+            #modal-signOn .modal-content .features a {
+               width: 100% !important;
+               margin-top: 20px;
+            }
+         }
+      </style>
+   </head>
+   <body>
+      <div id="modal-signOn" class="gradbridge-gradient">
+         <div class="modal-content">
+            <div class="features features">
+               <div class="feat-frame">
+                  <h3>My Existing Application</h3>
+                  <p>Complete or check the status of your existing loan application.</p>
+                  <p>GradBridge uses Campus Door to process applications.</p>
+                  <a
+                     class="main filled satoshi"
+                     href="https://secure.firstmarkservices.com/Account/Login?ReturnUrl=%2f"
+                     target="_blank"
+                     >Sign in</a
+                  >
+               </div>
+               <h2 class="yellow">OR</h2>
+               <div class="feat-frame big">
+                  <h3>My Loan Account</h3>
+                  <p>View, manage and pay down your GradBridge loan(s).</p>
+                  <p>GradBridge uses Nelnet to service loans.</p>
+                  <a
+                     class="main filled satoshi"
+                     href="https://www.campusdoor.com/GradBridge/Login.aspx"
+                     target="_blank"
+                     >Sign in</a
+                  >
+               </div>
+            </div>
+         </div>
+         <img
+            class="modal-bg"
+            style="top: 0; left: 0"
+            src="https://ldev.gradbridge.com/wp-content/uploads/2025/08/signOn-bg1.png"
+         />
+         <img
+            class="modal-bg"
+            style="bottom: 0; right: 0"
+            src="https://ldev.gradbridge.com/wp-content/uploads/2025/08/signOn-bg2.png"
+         />
+      </div>
+   </body>
+</html>
